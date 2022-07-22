@@ -31,7 +31,7 @@ AS
       )
       LOOP
         BEGIN
-          --insert into temp1 (shiftname) values (x.shiftname);
+         
           FOR Y IN
           (SELECT A.EMPLOYEE_ID ,
             CAST(A.TIME_ENTRY AS DATE) TIME_ENTRY ,
